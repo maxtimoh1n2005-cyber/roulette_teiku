@@ -55,7 +55,7 @@ h1 {
 }
 
 .spin-btn {
-    background: linear-gradient(135deg, #ff99cc 0%, #ff66b2 100%);
+    background: linear-gradient(135deg, #ff99cc 1%, #ff66b2 100%);
     color: white;
     border: none;
     padding: 15px 40px;

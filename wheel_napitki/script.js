@@ -448,6 +448,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Привязываем кнопку
     spinBtn.onclick = spin;
+
+    // Кнопка "Назад" — переход в главное меню
+const backBtn = document.getElementById('backBtn');
+if (backBtn) {
+    backBtn.onclick = function() {
+        // Просто переходим на главное меню
+        window.location.href = '../index.html';
+    };
+}
     
     // Инициализация Telegram с принудительной перерисовкой
     if (window.Telegram && window.Telegram.WebApp) {

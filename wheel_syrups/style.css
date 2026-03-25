@@ -135,13 +135,13 @@ h1 {
     background: linear-gradient(135deg, #e6c5d6 0%, #d4b8cc 100%);
     color: white;
     border: none;
-    padding: 8px 20px;
-    font-size: 7px;
+    padding: 8px 10px;
+    font-size: 9px;
     border-radius: 40px;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     font-weight: bold;
     letter-spacing: 0.5px;
     width: auto;

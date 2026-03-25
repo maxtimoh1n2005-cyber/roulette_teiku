@@ -128,3 +128,28 @@ h1 {
         min-height: 50px;
     }
 }
+
+/* Кнопка "Назад" */
+.back-btn {
+    background: linear-gradient(135deg, #c0c0c0 0%, #a0a0a0 100%);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.back-btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.back-btn:active {
+    transform: scale(0.98);
+}

@@ -131,7 +131,7 @@ h1 {
 
 /* Кнопка "Назад" */
 .back-btn {
-    background: linear-gradient(135deg, #c0c0c0 0%, #a0a0a0 100%);
+    background: linear-gradient(135deg, #c0c0c0 1%, #a0a0a0 100%);
     color: white;
     border: none;
     padding: 12px 30px;
